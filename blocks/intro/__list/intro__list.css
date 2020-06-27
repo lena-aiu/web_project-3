@@ -1,0 +1,36 @@
+.intro__list {
+  color: #FFFFFF;
+  list-style-type: none;
+  padding: 0px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.1250;
+
+}
+
+@media screen and (max-width: 768px) { 
+  
+  .intro__list {
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 0px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.1250;
+  }
+
+}
+
+@media screen and (max-width : 320px) { 
+
+  .intro__list {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.1250;
+  }
+
+}

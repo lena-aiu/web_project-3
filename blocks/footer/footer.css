@@ -1,0 +1,23 @@
+@import url('./__columns/footer__columns.css');
+@import url('./__column_content_info/footer__column_content_info.css');
+@import url('./__column_content_copyright/footer__column_content_copyright.css');
+@import url('./__link/footer__link.css');
+@import url('./__author/footer__author.css');
+
+.footer {
+  max-width: calc(100% - 48px * 2);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.footer__author {
+  flex-wrap: wrap;
+  margin-top: 2px 0 0 0;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 1;
+  text-align: right;
+}
+
+@media screen and (max-width : 320px) { 
+  
+  .footer__author {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 0.8750;
+  }
+}
