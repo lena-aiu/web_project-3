@@ -1,0 +1,31 @@
+.place__text-two {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.place__text-two:nth-last-of-type(1) {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) { 
+  
+  .place__text-two {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+}
+
+@media screen and (max-width: 320px) { 
+  
+  .place__text-two {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px; 
+
+  }
+
+}

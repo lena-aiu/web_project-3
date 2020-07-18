@@ -2,7 +2,7 @@
   color: #FFFFFF;
   font-size: 30px;
   max-width: 620px;
-  line-height: 1.875;
+  line-height: 36px;
   margin: 32px auto 64px;
   text-align: center;
   font-family: Inter, Arial, sans-serif;
@@ -12,7 +12,6 @@
 @media screen and (max-width: 768px) { 
 
   .lead__subtitle {
-    line-height: 36px;
     margin-bottom: 56px;
     font-size: calc(30px + 2 * ((100vw - 320px) / 768));
   }

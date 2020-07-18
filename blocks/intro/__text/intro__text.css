@@ -1,8 +1,8 @@
-.intro__text2 {
+.intro__text {
   color: #FFFFFF;
   font-size: 16px;
   max-width: 690px;
-  line-height: 1.625;
+  line-height: 26px;
   text-align: left;
   margin-bottom: 32px;
   margin-top: 0;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width : 320px) { 
     
-  .intro__text2 {
+  .intro__text {
     margin-left: 0px;
   }
 

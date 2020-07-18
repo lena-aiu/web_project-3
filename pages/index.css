@@ -12,3 +12,7 @@
 @import url('../blocks/grid/grid.css');
 @import url('../blocks/places/places.css');
 @import url('../blocks/place/place.css');
+
+body {
+    background-color: #2A2C2F;
+  }

@@ -1,6 +1,6 @@
 @import url('./__title/intro__title.css');
-@import url('./__text1/intro__text1.css');
-@import url('./__text2/intro__text2.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
 
 .intro {
@@ -11,8 +11,8 @@
   color: #FFFFFF;
   font-weight: 900;
   max-width: calc(100% - 148px * 2);
-  margin: auto;
-  margin-bottom: 92px;
+  margin-left: 148px;
+  margin-right: 148px;
 }
 
 
@@ -21,6 +21,8 @@
   .intro {
     max-width: calc(100% - 48px * 2); 
     margin-bottom: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 
 }
@@ -30,6 +32,8 @@
   .intro {
     max-width: calc(100% - 24px * 2);
     margin-bottom: 88px; 
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
 }
@@ -37,8 +41,10 @@
 @media screen and (max-width : 320px) { 
 
   .intro {
-    max-width: calc(100% - 16px * 2);
+    max-width: calc(100% - 16px * 2); 
     margin-bottom: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
   
 }

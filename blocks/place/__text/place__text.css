@@ -8,7 +8,7 @@
 @media screen and (max-width: 1024px) {
 
   .place__text {
-    grid-area: place__text; 
+   /* grid-area: place__text; */
     max-width: 456px;
     }
  
@@ -25,6 +25,7 @@
 @media screen and (max-width : 320px) { 
 
   .place__text {
-    grid-area: place__text; 
+  /*  grid-area: place__text; */
+   max-width: 288px;
   }
 }

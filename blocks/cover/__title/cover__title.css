@@ -3,20 +3,40 @@
   text-align: center;
   font-weight: 900;
   font-style: normal;
-  font-family: Inter;
+  font-family: 'Inter','Arial', sans-serif;
   font-size: 72px;
   line-height: 76px;
   max-width: 656px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 264px;
+  margin-right: 264px;
   z-index: 2;
+}
+
+@media screen and (max-width : 1024px) { 
+
+  .cover__title {
+   margin-left: 184px;
+   margin-right: 184px; 
+   }
+
+}
+
+@media screen and (max-width : 768px) { 
+
+  .cover__title {
+   margin-left: 56px;
+   margin-right: 56px; 
+   }
+
 }
 
 @media screen and (max-width : 320px) { 
 
   .cover__title {
-    line-height: 2.1875;
-   font-size: calc(32px + 2 * ((100vw - 320px) / 320));
+   line-height: 35px;
+   font-size: 32px;
+   margin-left: 16px;
+   margin-right: 16px; 
    }
 
 }

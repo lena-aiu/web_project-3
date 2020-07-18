@@ -1,22 +1,42 @@
 .cover__subtitle {
   color: #FFFFFF;
-  font-family: Inter;
+  font-family: 'Inter','Arial', sans-serif;
   font-style: normal;
   font-weight: normal; 
   font-size: 18px;
-  line-height: 1.375;
+  line-height: 22px;
   max-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 432px;
+  margin-right: 432px;
   margin-top: 32px;
   z-index: 2;
+}
+
+@media screen and (max-width : 1024px) { 
+
+  .cover__subtitle {
+   margin-left: 352px;
+   margin-right: 352px; 
+  }
+
+}
+
+@media screen and (max-width : 768px) { 
+
+  .cover__subtitle {
+   margin-left: 224px;
+   margin-right: 224px; 
+  }
+
 }
 
 @media screen and (max-width : 320px) { 
 
    .cover__subtitle {
-    line-height: 1;
-    font-size: calc(14px + 2 * ((100vw - 320px) / 320));
+    line-height: 16px;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-right: 16px; 
    }
 
 }

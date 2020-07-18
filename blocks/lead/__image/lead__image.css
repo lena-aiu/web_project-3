@@ -3,6 +3,8 @@
   max-height: 615px;
   object-fit: cover;
   object-position: top;
+  margin: 0;
+  padding-left: 0;
 }
 
 
@@ -10,8 +12,7 @@
 
   .lead__image {
     max-width: 928px;
-    max-height: 580px;
-
+    max-height: 580px; 
   }
 
 }
@@ -20,7 +21,7 @@
 
   .lead__image {
     max-width: 768px;
-    max-height: 480px;
+    max-height: 480px; 
   }
  
 }
@@ -29,8 +30,12 @@
 
   .lead__image {
     max-width: 320px;
-    max-height: 200px;
-
+    max-height: 200px; 
+    margin-left: 0px;
+    margin-right: 0px; 
   }
 
 }
+
+
+

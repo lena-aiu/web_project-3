@@ -1,0 +1,35 @@
+.place__text-three {
+  font-size: 16px;
+  line-height: 169.4%;
+
+}
+
+@media screen and (max-width: 768px) { 
+  
+ .place__text-three {
+    margin-top: 6px;
+  } 
+ 
+}
+
+@media screen and (max-width: 768px) { 
+  
+  .place__text-three {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+}
+
+@media screen and (max-width: 320px) { 
+  
+  .place__text-three {
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px; 
+
+  }
+
+}

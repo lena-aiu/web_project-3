@@ -4,9 +4,9 @@
 @import url('./__url-heading/place__url-heading.css');
 @import url('./__link/place__link.css');
 @import url('./__text/place__text.css');
-@import url('./__text1/place__text1.css');
-@import url('./__text2/place__text2.css');
-@import url('./__text3/place__text3.css');
+@import url('./__text-one/place__text-one.css');
+@import url('./__text-two/place__text-two.css');
+@import url('./__text-three/place__text-three.css');
 
 .place {
 
@@ -56,6 +56,8 @@
    "place__title"
    "place__image"
    "place__text";
+   grid-row-gap: 32px;
+  /* grid-column-gap: 0px; */
   }
 
 }

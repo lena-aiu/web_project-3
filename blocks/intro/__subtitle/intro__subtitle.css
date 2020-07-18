@@ -1,8 +1,8 @@
-.intro__text1 {
+.intro__subtitle {
   color: #FFFFFF;
   font-size: 24px;
   max-width: 690px;
-  line-height: 1.5;
+  line-height: 34px;
   text-align: left;
   margin-bottom: 32px;
   margin-top: 0;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1024px) {
 
-  .intro__text1 {
+  .intro__subtitle {
     max-width: 100%;
   }
 
@@ -21,9 +21,7 @@
 
 @media screen and (max-width : 320px) { 
   
-  .intro__text1 {
-    color: #FFFFFF;
-    font-size: 24px;
+  .intro__subtitle {
     line-height: 30px;
     margin-left: 0px;
   }
