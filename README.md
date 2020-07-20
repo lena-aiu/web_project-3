@@ -1,6 +1,6 @@
 # From Portland to Portland
 
-*07/17/2020 is the recent updates to the codebase.*
+*07/19/2020 is the recent updates to the codebase.*
 
 #### Single-page website project 
 -----
