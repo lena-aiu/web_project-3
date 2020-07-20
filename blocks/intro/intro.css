@@ -2,6 +2,7 @@
 @import url('./__subtitle/intro__subtitle.css');
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
+@import url('./__digits/intro__digits.css');
 
 .intro {
   display: flex;

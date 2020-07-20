@@ -7,17 +7,7 @@
 @media screen and (max-width : 768px) { 
 
   .lead__figure {
-    margin: 0px;
-
-  }
-
-}
-
-@media screen and (max-width : 320px) { 
-
-  .lead__figure {
-    margin: 0px;
-
+    max-width: 100%;
   }
 
 }

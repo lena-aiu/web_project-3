@@ -1,18 +1,17 @@
-@import url('./__columns/footer__columns.css');
-@import url('./__columns/_content/footer__columns_content_info.css');
+@import url('./_columns/footer_columns_content-info.css');
 @import url('./__link/footer__link.css');
-@import url('./__author/footer__author.css');
+@import url('./_columns/footer_columns_author.css');
 
 .footer {
   max-width: calc(100% - 48px * 2);
   margin-left: 48px;
   margin-right: 48px;
   display: flex;
-  justify-content: center;
-  margin: auto;
+  justify-content: center; 
   margin-top: 92px;
   margin-bottom: 24px;
   color: #FFFFFF;
+
 }
 
 @media screen and (max-width : 768px) { 
@@ -29,6 +28,6 @@
   .footer {
     max-width: calc(100% - 16px * 2);
     margin-left: 16px;
-
+    flex-direction: column;
     }
 }

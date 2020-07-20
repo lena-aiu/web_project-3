@@ -1,17 +1,18 @@
-.footer_author {
+.footer_columns_author {
   flex-wrap: wrap; 
   margin-top: 2px;
   font-family: 'Inter','Arial', sans-serif;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
+  text-align: right; 
   display: flex; 
-
+  max-width: 100%;
+  white-space: nowrap; 
 }
 
 @media screen and (max-width : 320px) { 
   
-  .footer_author {
+  .footer_columns_author {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 14px;

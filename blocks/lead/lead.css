@@ -7,7 +7,7 @@
 .lead {
   max-width: calc(100% - 148px * 2); 
   margin-right: 148px; 
-  margin-left: 148px;
+  margin-left: 148px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,8 @@
   .lead {
     max-width: calc(100% - 48px * 2);
     margin-left: 48px;
-    margin-right: 48px; 
+    margin-right: 48px;
+    max-width: 100%;
   }
  
 }
@@ -29,21 +30,23 @@
 @media screen and (max-width: 768px) { 
 
   .lead {
-    max-width: calc(100% - 24px * 2); 
     margin-left: 0px;
-    margin-right: 0px; 
-    margin-bottom: 88px;
+    margin-right: 0px;
+    margin-bottom: 88px; 
+    max-width: 100%;
   }
 
 }
+
+
 
 @media screen and (max-width: 320px) { 
 
   .lead {
-    max-width: calc(100% - 16px * 2); 
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 64px;
-   /* margin-left: 16px;
-    margin-right: 16px; */
+    max-width: 100%;
   }
 
-}
+} 

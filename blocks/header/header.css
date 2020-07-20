@@ -10,8 +10,9 @@
   align-items: center;
   max-width: calc(100% - 148px * 2);
   margin: auto;
-  margin-top: 34px;
+  margin-top: 0px;
   margin-bottom: 58px;
+  padding-top: 34px;
 }
 
 @media screen and (max-width: 1024px) {
