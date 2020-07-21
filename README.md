@@ -18,6 +18,6 @@ Here you'll see:
 
 My improving plan for this project is to design a form to allow users to send a comment and adding all the necessary vendor prefixes.
 
-[This is link on future website](https://lena-aiu.github.io/web_project_3/ "It's funny!")
+[Website](https://lena-aiu.github.io/web_project_3/ "It's funny!")
 
 @lena-aiu :+1: This  looks great - it's ready to review! :octocat:
